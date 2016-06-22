@@ -1,0 +1,11 @@
+heroku config:set SESSION_KEY1=a;sldfja;sdlfjas;dlfjad
+
+
+TODO:
+Add a middleware to redirect out of home if the user is not logged in
+
+Display Error in login page
+
+Deploy to Heroku
+
+Name	Deployed Site

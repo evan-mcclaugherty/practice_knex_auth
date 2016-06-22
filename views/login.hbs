@@ -1,4 +1,8 @@
-<h1>Login Here</h1>
-<form action="index.html" method="post">
-
+<h1>Login</h1>
+<form action="/login" method="post">
+    <input type="text" name="username" placeholder="Enter Username">
+    <input type="password" name="password" placeholder="Password">
+    <button type="submit">Login</button>
 </form>
+
+<h2>{{error}}</h2>
