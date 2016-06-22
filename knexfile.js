@@ -2,7 +2,7 @@
 
 module.exports = {
     development: {
-        client: 'sqlite3',
-        connection: './dev.sqlite3'
-    };
+        client: 'pg',
+        connection: 'postgres://localhost/practice_knex_auth'
+    }
 }
